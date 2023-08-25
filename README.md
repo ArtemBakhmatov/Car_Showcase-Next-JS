@@ -10,3 +10,5 @@
 
 RapidAPI: https: //rapidapi.com/hub/
 RapidAPI Cars API: https://rapidapi.com/apininjas/api/cars-by-api-ninjas?utm_source=youtube.com%2FJavaScriptMastery&utm_medium=referral&utm_campaign=DevRel
+
+9. npm i @headlessui/react ->  Headless UI (Готовые стилистические компоненты)

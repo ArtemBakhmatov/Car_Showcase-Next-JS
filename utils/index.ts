@@ -66,4 +66,17 @@ export const generateCarImageUrl = (car: CarProps, angle?: string) => {
 
     return `${url}`;
 }
+
+export const updateSearchParams = (type: string, value: string) => {
+    // Получить текущие параметры поиска по URL-адресу
+    const searchParams = new URLSearchParams(window.location.search);
+  
+    // Установить для указанного параметра поиска заданное значение
+    searchParams.set(type, value);
+  
+    // Установить для указанного параметра поиска заданное значение
+    const newPathname = `${ window.location.pathname }?${ searchParams.toString() }`;
+  
+    return newPathname;
+};
   
